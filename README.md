@@ -1,17 +1,17 @@
-# 🧠 Personality Prediction Using Machine Learning
+#  Personality Prediction Using Machine Learning
 
 Predict whether a person is an introvert or extrovert based on behavioral traits using supervised machine learning.
 
 ---
 
-## 📝 Personality Prediction Project – Summary
+##  Personality Prediction Project – Summary
 
-### 📌 Objective:
+###  Objective:
 The goal of this project was to develop a machine learning model that can accurately predict whether a person is an **Introvert** or an **Extrovert** based on behavioral features such as time spent alone, social event attendance, online activity, and more.
 
 ---
 
-### 📁 Dataset Overview:
+###  Dataset Overview:
 - **Total Records**: 2,900
 - **Features**: 7 input features + 1 target label (`Personality`)
 - **Feature Types**:
@@ -21,7 +21,7 @@ The goal of this project was to develop a machine learning model that can accura
 
 ---
 
-### 🔍 Exploratory Data Analysis (EDA):
+###  Exploratory Data Analysis (EDA):
 - Most numeric features were **right-skewed**
 - **Boxplots** showed clear behavioral separation between introverts and extroverts
 - **Correlation Matrix** revealed:
@@ -30,7 +30,7 @@ The goal of this project was to develop a machine learning model that can accura
 
 ---
 
-### 🧹 Data Preprocessing:
+###  Data Preprocessing:
 - Missing values handled using:
   - **Mean imputation** for numeric columns
   - **Mode imputation** for categorical columns
@@ -40,7 +40,7 @@ The goal of this project was to develop a machine learning model that can accura
 
 ---
 
-### ⚙️ Models Trained:
+###  Models Trained:
 - Random Forest
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
@@ -50,19 +50,19 @@ The goal of this project was to develop a machine learning model that can accura
 
 ---
 
-### 🧪 Evaluation (Test Set):
+###  Evaluation (Test Set):
 All models achieved **accuracy > 91%**
 
 | Model               | Accuracy |
 |--------------------|----------|
-| **SVM & Gradient Boosting** | **92.93%** ✅ |
+| **SVM & Gradient Boosting** | **92.93%**  |
 | KNN                | 92.59%   |
 | Random Forest      | 92.24%   |
 | XGBoost            | 91.72%   |
 
 ---
 
-### 🔁 Cross-Validation (5-Fold):
+###  Cross-Validation (5-Fold):
 
 | Model               | Mean Accuracy | Std Dev |
 |--------------------|---------------|---------|
@@ -74,11 +74,11 @@ All models achieved **accuracy > 91%**
 
 ---
 
-## ✅ Conclusion:
+##  Conclusion:
 Behavioral data can be used to predict personality type with high accuracy. Gradient Boosting emerged as the most accurate and stable model, making it suitable for further use or deployment.
 
 
-## 📚 Data Source & License
+##  Data Source & License
 
 This project uses a dataset originally published on [Kaggle](https://www.kaggle.com/) by **Rakesh Kapilavayi**.  
 The dataset is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license.
